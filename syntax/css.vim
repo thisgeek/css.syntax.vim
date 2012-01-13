@@ -2,7 +2,7 @@
 " Language:	Cascading Style Sheets
 " Maintainer:	Claudio Fleiner <claudio@fleiner.com>
 " URL:		http://www.fleiner.com/vim/syntax/css.vim
-" Last Change:	2011 Dec 14
+" Last Change:	2012 Jan 13
 " CSS2 by Nikolai Weibull
 " Full CSS2, HTML4 support by Yeti
 
@@ -102,7 +102,7 @@ syn keyword cssFontAttr contained large smaller larger
 syn keyword cssFontAttr contained narrower wider
 
 syn keyword cssColorProp contained color
-syn match cssColorProp contained "\<background\(-\(color\|image\|attachment\|position\)\)\=\>"
+syn match cssColorProp contained "\<background\(-\(color\|image\|repeat\|attachment\|position\)\)\=\>"
 syn keyword cssColorAttr contained center scroll fixed
 syn match cssColorAttr contained "\<repeat\(-[xy]\)\=\>"
 syn match cssColorAttr contained "\<no-repeat\>"
